@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bulma-0.9.0/css/bulma.min.css">
+    <title>Sistemi Digitali</title>
+</head>
+<body>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="#conv">
+                Convertitore
+            </a>
+      
+            <a class="navbar-item">
+                Operatore
+            </a>
+            
+            <a class="navbar-item">
+                WIP
+            </a>
+
+          </div>
+        </div>
+    </nav>
+
+
+    <h3 id="conv">Convertitore</h3>
+    <!--TODO Use grid-->
+    <div class="columns is-desktop">
+        <div class="column">
+            <label class="checkbox">
+                <input type="checkbox">
+                Ca2
+            </label>
+        </div>
+    </div>
+    <div class="columns is-desktop">
+        <div class="column">
+            <input class="input is-medium is-hovered" type="text" placeholder="Base di Partenza">
+        </div>
+        <div class="column" >
+            <input class="input is-medium is-hovered" type="text" placeholder="Base di Arrivo">
+        </div>
+    </div>
+    <div class="columns is-desktop">
+        <div class="column">
+            <input class="input is-medium is-hovered" type="text" placeholder="Numero da convertire">
+        </div>
+        <div class="column">
+            <input class="input is-medium is-hovered" type="text" placeholder="Numero convertito" readonly>
+        </div>
+    </div>
+
+    <div class="columns is-desktop">
+        <div class="column">
+            <input class="button is-primary" type="submit" value="Submit">
+        </div>
+        <div class="column">
+            <input class="button is-danger" type="reset" value="Reset">
+        </div>
+    </div>
+
+    <hr name="separ">
+
+    <h3 id="oper">Operazioni su interi</h3>
+
+    <hr>
+<script src="js/convert.js"></script>
+<script src="js/oper.js"></script>
+</body>
+</html>
